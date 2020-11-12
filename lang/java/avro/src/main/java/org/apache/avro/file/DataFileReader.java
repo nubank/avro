@@ -52,7 +52,13 @@ public class DataFileReader<D>
     // read magic header
     byte[] magic = new byte[MAGIC.length];
     in.seek(0);
-    for (int c = 0; c < magic.length; c += in.read(magic, c, magic.length-c)) {}
+    for (int c = 0; c < magic.length;) {
+      int readBytes = in.read(magic, c, magic.length-c);
+      if (readBytes != -1)
+        c += readBytes;
+      else
+        break;
+    }
     in.seek(0);
 
     if (Arrays.equals(MAGIC, magic))              // current format
