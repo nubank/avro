@@ -60,7 +60,7 @@
     <ant.version>1.9.0</ant.version>
     <commons-cli.version>1.2</commons-cli.version>
     <commons-codec.version>1.9</commons-codec.version>
-    <commons-compress.version>1.8.1</commons-compress.version>
+    <commons-compress.version>1.21</commons-compress.version>
     <commons-httpclient.version>3.1</commons-httpclient.version>
     <commons-lang.version>2.6</commons-lang.version>
     <commons-logging.version>1.1.1</commons-logging.version>
