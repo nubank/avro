@@ -49,7 +49,7 @@
     <jetty-servlet-api.version>2.5-20081211</jetty-servlet-api.version>
     <jopt-simple.version>4.7</jopt-simple.version>
     <junit.version>4.11</junit.version>
-    <netty.version>3.5.13.Final</netty.version>
+    <netty.version>3.9.8.Final</netty.version>
     <paranamer.version>2.7</paranamer.version>
     <protobuf.version>2.5.0</protobuf.version>
     <thrift.version>0.9.1</thrift.version>
